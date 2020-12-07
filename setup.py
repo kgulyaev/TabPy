@@ -90,6 +90,7 @@ def setup_package():
             "tornado",
             "twisted",
             "urllib3",
+            'shifted_beta_geometric @ git+https://github.com/alxbog/shifted_beta_geometric_py@master#egg=shifted_beta_geometric'
         ],
         entry_points={
             "console_scripts": [
